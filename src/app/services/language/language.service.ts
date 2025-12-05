@@ -15,9 +15,8 @@ export class LanguageService {
   ) {}
 
   initLanguage(){
-    this.translateService.addLangs(["en", "es"])
-    let language = navigator.language || (navigator as any).userLanguage;
-    language = language.split("-").includes("es") ? "es" : "en"
+    this.translateService.addLangs(["en"])
+    const language = "en"
     this.translateService.setDefaultLang(language)
 
     // Change the URL without navigate:
