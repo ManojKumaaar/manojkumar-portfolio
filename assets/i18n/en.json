@@ -1,0 +1,113 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Manojkumar.pdf",
+  "Loading": "Loading...",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I have over <span class='underline'>3+ years of experience</span> building enterprise-grade backend systems and APIs for the Core Banking domain. I specialize in developing scalable, reliable, and secure applications using <span class='underline'>Java</span>, <span class='underline'>Spring Boot</span>, and <span class='underline'>Microservices</span> architecture. My work spans database migration, payments, and SWIFT integrations, ensuring performance, resilience, and compliance. I'm passionate about writing clean, maintainable, and test-driven code, following best engineering practices and continuous improvement.",
+  "Banner.ActionBtn": "Say Hi",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+  "In <span class='underline'>3+ years of experience</span> working in <span class='underline'>Core Banking systems</span>, I have focused on <span class='underline'>Backend Development</span> and <span class='underline'>Middleware Engineering</span>. I love contributing my knowledge to modernize legacy systems and build scalable solutions that solve real business problems.",
+  "My capabilities also include database migration, payments modernization, designing microservices, optimizing system performance, and suggesting and executing ideas that add value to the platforms I am working on.",
+  "I also program things for my personal use, whether for hobby or utility, often experimenting with automation, APIs, and AI-powered tools.",
+  "Some of the technologies I have trained and worked with include (but are not limited to):"
+],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Morgan Stanley",
+      "Title": "Backend Developer",
+      "Date": "Nov 2025 - Present",
+      "Description": [
+  "Working as a Backend Engineer in Java-based ETL applications",
+  "Building and optimizing ETL pipelines using Apache Spark",
+  "Handling large-scale data processing and migration to Snowflake",
+  "Contributing to database migration and performance improvements",
+  "Implementing DevOps practices using SonarQube, Jenkins and CI/CD workflows",
+  "Collaborating with cross-functional teams for delivery and technical discussions"
+    ]
+
+    },
+    {
+      "Tab": "LTIMindtree",
+      "Title": "Backend Developer",
+      "Date": "July 2022 - Nov 2025",
+      "Description": [
+        "Working in the Core Banking domain with focus on backend and middleware development.",
+        "Delivered enterprise-scale modernization initiatives, including DB migration, payments transformation, and API design.",
+        "Partnered with architects, DBAs, and security teams to ensure platform reliability, scalability, and compliance.",
+        "Mentoring new team members, conducting technical interviews, and leading knowledge-sharing sessions.",
+        "Leveraging GitHub Copilot to accelerate Spring Boot development through AI-assisted coding."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+ "FeatureProjects.Projects": [
+  {
+    "Title": "DB Migration (Ingres → PostgreSQL)",
+    "Description": "Migration of mission-critical banking databases with real-time synchronization using <span class='underline'>Spring Boot</span> and <span class='underline'>Apache Kafka</span>. Achieved <span class='underline'>zero downtime</span>, improved query performance, and reduced licensing cost.",
+    "imgs": ["assets/images/DB Migration/DB.png"],
+    "Technologies": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Ingres DB"]
+  },
+  {
+    "Title": "Payments Modernization",
+    "Description": "Transformation of monolithic payment modules into <span class='underline'>microservices</span> using <span class='underline'>Spring Boot</span>. Built scheduled workflows that improved transaction processing from minutes to seconds.",
+    "imgs": ["assets/images/Microservices/Microservices.png"],
+    "Technologies": ["Java", "Spring Boot", "Microservices", "Scheduler Jobs", "PostgreSQL"]
+  },
+  {
+    "Title": "Credit Score APIs",
+    "Description": "Creation of RESTful services to integrate external credit bureau systems. Enabled faster and more accurate customer evaluation within <span class='underline'>core banking workflows</span>.",
+    "imgs": ["assets/images/CreditScore/Credit Score.png"],
+    "Technologies": ["Java", "Spring Boot", "REST APIs"]
+  },
+  {
+    "Title": "IBM ITX Tool Replacement",
+    "Description": "Re-engineered legacy ITX-based applications into modern Java solutions. Eliminated expensive licensed dependencies and improved maintainability using <span class='underline'>Spring Boot</span>.",
+    "imgs": ["assets/images/ITX/ITX.png"],
+    "Technologies": ["Java", "Spring Boot", "PostgreSQL", "Ingres DB"]
+  },
+  {
+    "Title": "SWIFT Message Processing",
+    "Description": "Development of utilities for <span class='underline'>SWIFT MT message</span> creation and parsing compliant with <span class='underline'>ISO 20022</span>. Enabled secure international payment communication in banking systems.",
+    "imgs": ["assets/images/SWIFT/SWIFT.png"],
+    "Technologies": ["Java", "Spring Boot", "SWIFT MT", "ISO 20022"]
+  }
+]
+,
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
+  {
+    "Title": "ForecastingAI",
+    "Description": "AI-powered forecasting application built using Spring Boot and Gemini AI API, deployed on AWS EC2. Generates intelligent predictions and automated email reports for insights.",
+    "imgs": [],
+    "ghLink": "https://github.com/ManojKumaaar/ForecastingAI",
+    "demoLink": "",
+    "Technologies": ["Java", "Spring Boot", "AI API", "PostgreSQL", "AWS EC2"]
+  },
+  {
+    "Title": "Cloud Chat",
+    "Description": "Cross-platform chat application built using Flutter with Firebase backend. Supports authentication, real-time messaging, and cloud storage using Firestore.",
+    "imgs": [],
+    "ghLink": "https://github.com/ManojKumaaar/cloud_chat",
+    "demoLink": "",
+    "Technologies": ["Flutter", "Firebase", "Dart", "Firestore", "Authentication"]
+  }
+]
+,
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}
